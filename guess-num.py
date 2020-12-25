@@ -13,6 +13,11 @@ while True:
 	if num == r:
 		print('終於猜對了')
 		break
+	elif num > r:
+		print('你的數字比答案大')
+	elif num < r:
+		print('你的數字比答案小')
+		
 
 
 
